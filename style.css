@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Raleway-VariableFont_wght;
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: rgb(255, 222, 205);
+}
+
+.logo {
+    width: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(227, 87, 17);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-container h2 {
+    font-size: 1.5em;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.links-container {
+    margin-right: 160px;
+}
+
+.links-container li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 70px;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.links-container a {
+    color: rgb(255, 215, 195);
+    text-decoration: none;
+}
+
+.links-container a:hover {
+    color: rgb(126, 44, 2);
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}

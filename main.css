@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Raleway-VariableFont_wght;
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+.hero-text {
+    width: 70%;
+    height: 40%;
+    margin-top: 9%;
+    margin-left: 9%;
+    padding: 5%;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    margin-bottom: 20px;
+    color: rgb(46, 46, 46);
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-family: Raleway-VariableFont_wght;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 140px;
+    height: 60px;
+    color:rgb(255, 215, 195);
+    font-size: 1.2em;
+    background-color: rgb(227, 87, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(126, 44, 2);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    width: 80%;
+    margin-top: 140px;
+}
+
+.card-container {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 170px
+}
+
+.card-container1 {
+    width: 15%;
+    height: 160px;
+    padding: 30px;
+    margin-right: 70px;
+    border-radius: 10px;
+    border: solid 2px rgb(227, 87, 17);
+}
+
+.card-container1 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+}
+
+.card-container1 p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-bottom: 40px;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    font-weight: 400;
+}
+
+.card-container1:hover  {
+    background-color: rgb(227, 87, 17);
+    color:aliceblue;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(227, 87, 17);
+    padding: 20px;
+    margin-top: 70px;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    color:aliceblue;    
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.about {
+    display: flex;
+    margin-left: 100px;
+}
+
+.profile-container1 {
+    margin-left: 140px;
+    width: 15%;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+}
+
+.profile-container2 {
+    margin-left: 10px;
+    width: 15%;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+}
+
+.profile-container3 {
+    margin-left: 10px;
+    width: 15%;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+}
+
+.profile-container2 img, 
+.profile-container1 img,
+.profile-container3 img {
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 40px;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+}
+
+.form h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+        display: block;
+        margin-bottom: 15px;
+        font-weight: bold;
+        color: rgb(227, 87, 17);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 190%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea:focus,
+.form-group input:focus {
+    outline: none;
+    border: solid 2px rgb(227, 87, 17);
+}
+
+.form-group button {
+    width: 200%;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(227, 87, 17);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
