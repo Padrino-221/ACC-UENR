@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Raleway-VariableFont_wght;
+    src: url(/Fonts/Raleway-VariableFont_wght.ttf);
+}
+
+.hero-text {
+    width: 70%;
+    height: 40%;
+    margin-top: 9%;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    margin-bottom: 50px;
+    color: rgb(46, 46, 46);
+}
+
+.hero-text h2 {
+    font-size: 2em;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    margin-bottom: 20px;
+    color: rgb(46, 46, 46);
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-family: Raleway-VariableFont_wght;
+    margin-bottom: 50px;
+}
+
+.button {
+    width: 140px;
+    height: 60px;
+    color:rgb(255, 215, 195);
+    font-size: 1.2em;
+    background-color: rgb(227, 87, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(126, 44, 2);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-family: Raleway-VariableFont_wght;
+    margin-bottom: 50px;
+    margin-left: 3%;
+}
+
+.icon1 {
+    width: 32px;
+    height: 32px;
+    background-image: url('/images/map.png');
+    background-size: cover;
+    display: inline-block;
+    font-family: Raleway-VariableFont_wght;
+    font-weight: 700;
+}
+
+.icon2 {
+    width: 32px;
+    height: 32px;
+    background-image: url('/images/mail.png');
+    background-size: cover;
+    display: inline-block;
+    font-family: Raleway-VariableFont_wght;
+    font-weight: 700;
+}
+
+.icon3 {
+    width: 32px;
+    height: 32px;
+    background-image: url('/images/11419837_website_link_icon.png');
+    background-size: cover;
+    display: inline-block;
+    font-family: Raleway-VariableFont_wght;
+    font-weight: 700;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.website {
+    display: flex;
+    align-items: center;
+}
+
+.tag {
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-family: Raleway-VariableFont_wght;
+    margin-left: 1.5%;
+    font-weight: 500;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(227, 87, 17);
+    padding: 20px;
+    margin-top: 70px;
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    color:aliceblue;    
+    font-size: 1.3em;
+    font-weight: 500;
+}
